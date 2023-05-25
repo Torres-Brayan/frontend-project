@@ -1,0 +1,102 @@
+#mainBody {
+    background-color: rgb(123,173,176);
+}
+ .game-cont {
+    display: block;
+    width: 265px;
+    height: 270px;
+    word-wrap: break-word;
+    background-color: #42617f;
+    background-clip: border-box;
+    border: 0 solid rgba(0,0,0,.6);
+    border-radius: 0.25rem;
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+    font-size: 1 rem;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    margin-top: 20px;
+
+ }
+ .game-image{
+    width: 263px;
+    height: 138px;
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+ }
+
+ .game-cont:hover{
+
+    box-shadow: 5px 6px 6px 2px #e9ecef;
+    transform: scale(1.1);
+}
+
+.game-icon {
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 1px;
+}
+
+#nav-tabContent {
+    background-color: rgb(123, 173, 176);
+}
+
+#nav-tab {
+    background-color: rgb(31, 57, 87);
+    text-align: center;
+    margin: auto;
+    align-items: center;
+    font-family: 'Teko', sans-serif;
+    font-size: x-large;
+}
+
+#nav-home,
+.tab-pane {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+
+#nav-shooter,
+.tab-pane {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#nav-sports,
+.tab-pane {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#nav-card,
+.tab-pane {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-desc {
+    text-align: center;
+    margin: 20px;
+}
+#site-title {
+    height: 100px;
+    width: 150px;
+    display: block;
+    margin-left: 00px;
+    margin-right: 0px;
+    mix-blend-mode: multiply;
+    background-color: #42617f;
+    margin-bottom: 0%;
+}
